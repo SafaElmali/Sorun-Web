@@ -1,3 +1,13 @@
+.imgResponsive {
+    max-width: 100%;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #717171;
+}
+
 /*Navbar*/
 
 .navbar.navbar-default .container-fluid #bs-example-navbar-collapse-1 {
@@ -49,6 +59,7 @@
 
 
 /* First Section */
+
 #firstpart_div {
     background-color: #F2F6F9
 }
@@ -56,7 +67,7 @@
 .triangle {
     position: relative;
     background-color: #F2F6F9;
-    width: 100% ;
+    width: 100%;
     height: auto;
     margin-top: -20px;
     z-index: -1;
@@ -76,7 +87,7 @@
     border-right: solid 50px transparent;
 }
 
-.firsttext{
+.firsttext {
     margin-top: 20px;
 }
 
@@ -87,7 +98,7 @@
     background-color: #36B4E6;
     border: none;
     margin: 0 auto;
-   
+
 }
 
 #inc_btn {
@@ -104,5 +115,49 @@
     font-size: 20px;
 }
 
+/* Second Section */
+
+.blueHeader {
+    color: #36B4E6;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#blue_header_detail {
+    text-align: center;
+    font-style: normal;
+    color: #899296;
+}
 
 
+#sorunchat_img {
+    margin-top: 80px;
+}
+
+#sorunchat_img2 {
+    margin-top: 60px;
+}
+
+.triangle-sec {
+    margin-top: 45px;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.triangle-sec:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    margin-top: 45px;
+    border-top: solid 50px white;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}
