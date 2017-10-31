@@ -28,14 +28,12 @@
     top: 0;
     left: 0;
     margin-left: 20px;
-
 }
 
 
 #sorun_brand {
-    margin-left: 6%;
-    margin-top: 3px;
-    position: absolute;
+    margin-left: 40px;
+    margin-top: 6px;
     top: 0;
     left: 0;
 
@@ -48,3 +46,6 @@
     color: #f2f5f8;
     margin-right: 100px;
 }
+
+
+/* First Section */
