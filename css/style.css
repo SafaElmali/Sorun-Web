@@ -1,11 +1,24 @@
 /*navbar*/
 
-@media screen and (max-width: 776px) {
+@media screen and (min-width: 0px) {
     #sorun_brand {
         margin-left: 6%;
-        margin-top:  -2px;
+        margin-top: -3px;
         top: 0;
         left: 0;
 
+    }
+    #navlist {
+        margin-top: 15px;
+        top: 0;
+        left: 0;
+        margin-left: 5px;
+
+    }
+    #sorunweb_button {
+        margin-top: 15px;
+        background-color: #31B4EA;
+        color: #f2f5f8;
+        margin-left: 15px;
     }
 }
