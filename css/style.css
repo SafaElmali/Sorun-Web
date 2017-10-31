@@ -22,3 +22,32 @@
         margin-left: 15px;
     }
 }
+
+/* First Section */
+@media screen and (max-width: 667px) {
+    #incele_button {
+        width: 200px;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (min-width: 693px) and (max-width:799) {
+    #incele_button {
+        width: 200px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #incele_button {
+        width: 200px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #incele_button {
+        width: 250px;
+        margin: 0 auto;
+    }
+}
