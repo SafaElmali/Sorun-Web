@@ -5,8 +5,12 @@
 html,
 body {
     font-family: 'Roboto', sans-serif;
-    color: #717171;
 }
+
+.bg{
+    background-color: #F2F6F9
+}
+
 
 /*Navbar*/
 
@@ -60,9 +64,6 @@ body {
 
 /* First Section */
 
-#firstpart_div {
-    background-color: #F2F6F9
-}
 
 .triangle {
     position: relative;
@@ -156,8 +157,9 @@ body {
     width: 0;
     height: 0;
     z-index: 1;
-    margin-top: 45px;
-    border-top: solid 50px white;
+    border-top: solid 50px orange;
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
 }
+
+/* Sorun Chat */
