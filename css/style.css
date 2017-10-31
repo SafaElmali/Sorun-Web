@@ -1,6 +1,6 @@
 /*navbar*/
 
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 0px) and (max-width:768px) {
     #sorun_brand {
         margin-left: 6%;
         margin-top: -3px;
