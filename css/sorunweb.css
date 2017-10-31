@@ -49,3 +49,60 @@
 
 
 /* First Section */
+#firstpart_div {
+    background-color: #F2F6F9
+}
+
+.triangle {
+    position: relative;
+    background-color: #F2F6F9;
+    width: 100% ;
+    height: auto;
+    margin-top: -20px;
+    z-index: -1;
+}
+
+.triangle:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 50px #F2F6F9;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}
+
+.firsttext{
+    margin-top: 20px;
+}
+
+#incele_button {
+    float: left;
+    width: 200px;
+    border-radius: 25px;
+    background-color: #36B4E6;
+    border: none;
+    margin: 0 auto;
+   
+}
+
+#inc_btn {
+    color: white;
+}
+
+#firstparthead {
+    padding-bottom: 30px;
+
+}
+
+#detailpart {
+    color: #899296;
+    font-size: 20px;
+}
+
+
+
