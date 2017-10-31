@@ -1,0 +1,11 @@
+/*navbar*/
+
+@media screen and (max-width: 776px) {
+    #sorun_brand {
+        margin-left: 6%;
+        margin-top:  -2px;
+        top: 0;
+        left: 0;
+
+    }
+}
