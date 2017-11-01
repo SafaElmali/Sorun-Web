@@ -30,7 +30,7 @@ body {
     width: 0;
     height: 0;
     z-index: 1;
-    border-top: solid 50px orange;
+    border-top: solid 50px white;
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
 }
@@ -42,7 +42,6 @@ body {
     background-color: #F2F6F9;
     width: 100%;
     height: auto;
-    margin-top: -20px;
     z-index: -1;
 }
 
@@ -112,6 +111,10 @@ body {
 
 /* First Section */
 
+#firstsec {
+    margin-top: -20px;
+}
+
 .firsttext {
     margin-top: 20px;
 }
@@ -135,7 +138,7 @@ body {
 
 }
 
-#detailpart {
+.sorundetail {
     color: #899296;
     font-size: 20px;
 }
@@ -165,3 +168,25 @@ body {
 }
 
 /* Sorun Chat */
+
+.chatHead {
+    color: #717171;
+    font-size: 27px;
+    height: 10px;
+}
+
+.chatBlue {
+    color: #36B4E6;
+    font-size: 110px;
+    font-weight: 700;
+}
+
+.sorunButton {
+    float: left;
+    width: 200px;
+    border-radius: 25px;
+    background-color: #c35e3e;
+    border: none;
+    margin: 0 auto;
+    color: white;
+}
