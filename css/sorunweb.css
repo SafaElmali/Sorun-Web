@@ -1,148 +1,148 @@
 .imgResponsive {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 html,
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .bg {
-    background-color: #F2F6F9
+  background-color: #F2F6F9
 }
 
 /* triangle box white */
 
 .triangle-wh {
-    margin-top: 45px;
-    position: relative;
-    width: 100%;
-    height: auto;
+  margin-top: 45px;
+  position: relative;
+  width: 100%;
+  height: auto;
 }
 
 .triangle-wh:after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 0;
-    height: 0;
-    z-index: 1;
-    border-top: solid 50px white;
-    border-left: solid 50px transparent;
-    border-right: solid 50px transparent;
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  z-index: 1;
+  border-top: solid 50px white;
+  border-left: solid 50px transparent;
+  border-right: solid 50px transparent;
 }
 
 /* triangle box gray */
 
 .triangle-gr {
-    position: relative;
-    background-color: #F2F6F9;
-    width: 100%;
-    height: auto;
-    z-index: -1;
+  position: relative;
+  background-color: #F2F6F9;
+  width: 100%;
+  height: auto;
+  z-index: -1;
 }
 
 .triangle-gr:after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 0;
-    height: 0;
-    border-top: solid 50px #F2F6F9;
-    border-left: solid 50px transparent;
-    border-right: solid 50px transparent;
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-top: solid 50px #F2F6F9;
+  border-left: solid 50px transparent;
+  border-right: solid 50px transparent;
 }
 
 /* Sorun paragraph detail */
 
 .sorundetail {
-    color: #899296;
-    font-size: 20px;
+  color: #899296;
+  font-size: 20px;
 }
 
 
 /*Navbar*/
 
 .navbar.navbar-default .container-fluid #bs-example-navbar-collapse-1 {
-    background-color: #F2F6F9;
+  background-color: #F2F6F9;
 }
 
 .navbar.navbar-default .navbar-collapse {
-    border: none;
-    background-color: #F2F6F9;
-    box-shadow: none;
+  border: none;
+  background-color: #F2F6F9;
+  box-shadow: none;
 }
 
 .navbar.navbar-default {
-    border: none;
-    background-color: #F2F6F9;
+  border: none;
+  background-color: #F2F6F9;
 
 }
 
 .navbar-default {
-    margin: 0;
-    background-color: #F2F6F9;
-    height: 90px;
+  margin: 0;
+  background-color: #F2F6F9;
+  height: 90px;
 
 }
 
 #navlist {
-    margin-top: 15px;
-    top: 0;
-    left: 0;
-    margin-left: 20px;
+  margin-top: 15px;
+  top: 0;
+  left: 0;
+  margin-left: 20px;
 }
 
 
 #sorun_brand {
-    margin-left: 40px;
-    margin-top: 6px;
-    top: 0;
-    left: 0;
+  margin-left: 40px;
+  margin-top: 6px;
+  top: 0;
+  left: 0;
 
 }
 
 
 #sorunweb_button {
-    margin-top: 15px;
-    background-color: #31B4EA;
-    color: #f2f5f8;
-    margin-right: 100px;
+  margin-top: 15px;
+  background-color: #31B4EA;
+  color: #f2f5f8;
+  margin-right: 100px;
 }
 
 
 /* First Section */
 
 #firstsec {
-    margin-top: -20px;
+  margin-top: -20px;
 }
 
 .firsttext {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 #incele_button {
-    float: left;
-    width: 200px;
-    border-radius: 25px;
-    background-color: #36B4E6;
-    border: none;
-    margin: 0 auto;
+  float: left;
+  width: 200px;
+  border-radius: 25px;
+  background-color: #36B4E6;
+  border: none;
+  margin: 0 auto;
 
 }
 
 #inc_btn {
-    color: white;
+  color: white;
 }
 
 #firstparthead {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 
 }
 
@@ -151,49 +151,50 @@ body {
 /* Second Section */
 
 .blueHeader {
-    color: #36B4E6;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
+  color: #36B4E6;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 #blue_header_detail {
-    text-align: center;
-    font-style: normal;
-    color: #899296;
+  text-align: center;
+  font-style: normal;
+  color: #899296;
 }
 
 
 #sorunchat_img {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 #sorunchat_img2 {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 /* Sorun Chat */
 
 .chatHead {
-    color: #717171;
-    font-size: 27px;
-    height: 10px;
+  color: #717171;
+  font-size: 27px;
+  height: 10px;
 }
 
 .chatBlue {
-    color: #36B4E6;
-    font-size: 110px;
-    font-weight: 700;
+  color: #36B4E6;
+  font-size: 110px;
+  font-weight: 700;
 }
 
 .sorunButton {
-    float: left;
-    width: 200px;
-    border-radius: 25px;
-    background-color: #c35e3e;
-    border: none;
-    margin: 0 auto;
-    color: white;
+  float: left;
+  width: 200px;
+  border-radius: 25px;
+  background-color: #c35e3e;
+  border: none;
+  margin: 0 auto;
+  color: white;
+  cursor: pointer;
 }
 
 /* Social Section */
