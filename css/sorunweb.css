@@ -7,10 +7,58 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.bg{
+.bg {
     background-color: #F2F6F9
 }
 
+/* triangle box white */
+
+.triangle-wh {
+    position: relative;
+    background-color: #F2F6F9;
+    width: 100%;
+    height: auto;
+    margin-top: -20px;
+    z-index: -1;
+}
+
+.triangle-wh:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 50px #F2F6F9;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}
+
+/* triangle box gray */
+
+.triangle-gr {
+    margin-top: 45px;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.triangle-gr:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    border-top: solid 50px orange;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}
 
 /*Navbar*/
 
@@ -64,30 +112,6 @@ body {
 
 /* First Section */
 
-
-.triangle {
-    position: relative;
-    background-color: #F2F6F9;
-    width: 100%;
-    height: auto;
-    margin-top: -20px;
-    z-index: -1;
-}
-
-.triangle:after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 0;
-    height: 0;
-    border-top: solid 50px #F2F6F9;
-    border-left: solid 50px transparent;
-    border-right: solid 50px transparent;
-}
-
 .firsttext {
     margin-top: 20px;
 }
@@ -138,28 +162,6 @@ body {
 
 #sorunchat_img2 {
     margin-top: 60px;
-}
-
-.triangle-sec {
-    margin-top: 45px;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.triangle-sec:after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 0;
-    height: 0;
-    z-index: 1;
-    border-top: solid 50px orange;
-    border-left: solid 50px transparent;
-    border-right: solid 50px transparent;
 }
 
 /* Sorun Chat */
