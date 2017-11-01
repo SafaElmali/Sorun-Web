@@ -24,6 +24,7 @@
 }
 
 /* First Section */
+
 @media screen and (max-width: 667px) {
     #incele_button {
         width: 200px;
@@ -49,5 +50,17 @@
     #incele_button {
         width: 250px;
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 370px) {
+
+    #socialHead {
+        font-size: 70px;
+
+    }
+     #sorunChat {
+        font-size: 70px;
+
     }
 }

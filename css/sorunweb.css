@@ -59,6 +59,14 @@ body {
     border-right: solid 50px transparent;
 }
 
+/* Sorun paragraph detail */
+
+.sorundetail {
+    color: #899296;
+    font-size: 20px;
+}
+
+
 /*Navbar*/
 
 .navbar.navbar-default .container-fluid #bs-example-navbar-collapse-1 {
@@ -138,10 +146,7 @@ body {
 
 }
 
-.sorundetail {
-    color: #899296;
-    font-size: 20px;
-}
+
 
 /* Second Section */
 
@@ -190,3 +195,7 @@ body {
     margin: 0 auto;
     color: white;
 }
+
+/* Social Section */
+
+
