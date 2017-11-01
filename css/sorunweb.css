@@ -7,9 +7,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.bg {
-  background-color: #F2F6F9
+.row{
+    margin-top: 45px;
 }
+
 
 /* triangle box white */
 
@@ -208,3 +209,7 @@ body {
 #twitlogo{
   margin-top: 60px;
 }
+
+
+/* Sorun Dash */
+

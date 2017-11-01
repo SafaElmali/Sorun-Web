@@ -67,6 +67,9 @@
         font-size: 70px;
 
     }
+    #dashHead{
+        font-size: 70px;
+    }
 }
 
 @media screen and (min-width:280px) {
