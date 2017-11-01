@@ -59,7 +59,7 @@
         font-size: 70px;
 
     }
-     #sorunChat {
+    #sorunChat {
         font-size: 70px;
 
     }
@@ -68,3 +68,29 @@
 
     }
 }
+
+@media screen and (min-width:280px) {
+
+
+    #twitlogo {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width:400px) {
+
+
+    #twitlogo {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:650px) {
+
+
+    #twitlogo {
+        margin-top: 35px;
+    }
+}
+
+
