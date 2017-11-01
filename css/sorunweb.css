@@ -199,4 +199,12 @@ body {
 
 /* Social Section */
 
+/* New Channels */
 
+.logoBlock {
+  display: inline-block;
+}
+
+#twitlogo{
+  margin-top: 60px;
+}
