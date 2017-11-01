@@ -14,12 +14,10 @@ body {
 /* triangle box white */
 
 .triangle-wh {
+    margin-top: 45px;
     position: relative;
-    background-color: #F2F6F9;
     width: 100%;
     height: auto;
-    margin-top: -20px;
-    z-index: -1;
 }
 
 .triangle-wh:after {
@@ -31,7 +29,8 @@ body {
     margin: 0 auto;
     width: 0;
     height: 0;
-    border-top: solid 50px #F2F6F9;
+    z-index: 1;
+    border-top: solid 50px orange;
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
 }
@@ -39,10 +38,12 @@ body {
 /* triangle box gray */
 
 .triangle-gr {
-    margin-top: 45px;
     position: relative;
+    background-color: #F2F6F9;
     width: 100%;
     height: auto;
+    margin-top: -20px;
+    z-index: -1;
 }
 
 .triangle-gr:after {
@@ -54,8 +55,7 @@ body {
     margin: 0 auto;
     width: 0;
     height: 0;
-    z-index: 1;
-    border-top: solid 50px orange;
+    border-top: solid 50px #F2F6F9;
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
 }
