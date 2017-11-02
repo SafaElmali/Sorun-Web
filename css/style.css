@@ -54,24 +54,9 @@
 }
 
 @media screen and (max-width: 370px) {
-
-    #socialHead {
+.Header {
         font-size: 70px;
 
-    }
-    #sorunChat {
-        font-size: 70px;
-
-    }
-    #sorunHelp {
-        font-size: 70px;
-
-    }
-    #dashHead{
-        font-size: 70px;
-    }
-    #sorunAI{
-        font-size:70px;
     }
 }
 
@@ -98,5 +83,3 @@
         margin-top: 35px;
     }
 }
-
-

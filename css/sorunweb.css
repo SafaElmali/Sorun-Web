@@ -227,3 +227,7 @@ body {
   filter: none;
   -webkit-filter: grayscale(0%);
 }
+
+#companyHead{
+   margin-top: 130px;
+}
