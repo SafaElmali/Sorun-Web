@@ -43,6 +43,7 @@ body {
   background-color: #F2F6F9;
   width: 100%;
   height: auto;
+  z-index: -1;
 }
 
 .triangle-gr:after {
