@@ -1,87 +1,102 @@
 /*navbar*/
 
 @media screen and (min-width: 0px) and (max-width:768px) {
-    #sorun_brand {
-        margin-left: 6%;
-        margin-top: -3px;
-        top: 0;
-        left: 0;
+ #sorun_brand {
+  margin-left: 6%;
+  margin-top: -3px;
+  top: 0;
+  left: 0;
 
-    }
-    #navlist {
-        margin-top: 15px;
-        top: 0;
-        left: 0;
-        margin-left: 5px;
+ }
+ #navlist {
+  margin-top: 15px;
+  top: 0;
+  left: 0;
+  margin-left: 5px;
 
-    }
-    #sorunweb_button {
-        margin-top: 15px;
-        background-color: #31B4EA;
-        color: #f2f5f8;
-        margin-left: 15px;
-    }
+ }
+ #sorunweb_button {
+  margin-top: 15px;
+  background-color: #31B4EA;
+  color: #f2f5f8;
+  margin-left: 15px;
+ }
 }
 
 /* First Section */
 
 @media screen and (max-width: 667px) {
-    #incele_button {
-        width: 200px;
-        margin-left: 0%;
-    }
+ #incele_button {
+  width: 200px;
+  margin-left: 0%;
+ }
 }
 
 @media screen and (min-width: 693px) and (max-width:799) {
-    #incele_button {
-        width: 200px;
-        margin: 0 auto;
-    }
+ #incele_button {
+  width: 200px;
+  margin: 0 auto;
+ }
 }
 
 @media screen and (min-width: 800px) {
-    #incele_button {
-        width: 200px;
-        margin: 0 auto;
-    }
+ #incele_button {
+  width: 200px;
+  margin: 0 auto;
+ }
 }
 
 @media screen and (min-width: 1200px) {
-    #incele_button {
-        width: 250px;
-        margin: 0 auto;
-    }
+ #incele_button {
+  width: 250px;
+  margin: 0 auto;
+ }
 }
 
 @media screen and (max-width: 370px) {
-    .Header {
-        font-size: 70px;
+ .Header {
+  font-size: 70px;
+ }
 
-    }
 }
 
 @media screen and (min-width:280px) {
 
 
-    #twitlogo {
-        margin-top: 10px;
-    }
+ #twitlogo {
+  margin-top: 10px;
+ }
 }
 
 @media screen and (min-width:400px) {
 
 
-    #twitlogo {
-        margin-top: 20px;
-    }
+ #twitlogo {
+  margin-top: 20px;
+ }
 }
 
 @media screen and (min-width:650px) {
 
 
-    #twitlogo {
-        margin-top: 35px;
-    }
+ #twitlogo {
+  margin-top: 35px;
+ }
 }
 
 /* SorunChat Page First Section */
+
+@media screen and (max-width:766px) {
+
+
+ #chatdiv {
+  margin-top: -70px;
+ }
+}
+
+@media screen and (max-width:1000px) {
+
+ #chatlogos {
+  margin-top: 0px;
+ }
+}
