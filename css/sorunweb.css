@@ -120,7 +120,7 @@ body {
 
 /* First Section */
 
-#firstsec {
+.firstsec {
   margin-top: -20px;
 }
 
@@ -187,6 +187,13 @@ body {
   font-weight: 700;
 }
 
+.chatBlue2 {
+  color: #36B4E6;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: -30px;
+}
+
 .sorunButton {
   float: left;
   width: 200px;
@@ -196,6 +203,10 @@ body {
   margin: 0 auto;
   color: white;
   cursor: pointer;
+}
+
+#chatlogos{
+  margin-top: 0px;
 }
 
 /* Social Section */
@@ -223,7 +234,6 @@ body {
   filter: gray;
   /* IE5+ */
   -webkit-filter: grayscale(1);
-  /* Webkit Nightlies & Chrome Canary */
   -webkit-transition: all .8s ease-in-out;
 }
 
@@ -243,7 +253,6 @@ body {
 
 /*filter: none;
   -webkit-filter: grayscale(0%); */
-
 
 #companyHead {
   margin-top: 130px;

@@ -54,7 +54,7 @@
 }
 
 @media screen and (max-width: 370px) {
-.Header {
+    .Header {
         font-size: 70px;
 
     }
@@ -83,3 +83,5 @@
         margin-top: 35px;
     }
 }
+
+/* SorunChat Page First Section */
