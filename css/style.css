@@ -53,12 +53,19 @@
  }
 }
 
+/* Make small headers on small res. devices */
 @media screen and (max-width: 370px) {
  .Header {
   font-size: 70px;
  }
+ .HeaderSec {
+  font-size: 50px;
+ }
+
 
 }
+
+/* New Channels */
 
 @media screen and (min-width:280px) {
 
