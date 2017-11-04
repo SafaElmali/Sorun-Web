@@ -205,7 +205,7 @@ body {
   cursor: pointer;
 }
 
-.imgPos{
+.imgPos {
   margin-top: -100px;
 }
 
@@ -219,6 +219,20 @@ body {
 
 #twitlogo {
   margin-top: 60px;
+}
+
+#headBlue {
+  color: #36B4E6;
+  font-size: 30px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+
+#textBlue {
+  color: #36B4E6;
+  font-size: 25px;
+  font-weight: 300;
 }
 
 
