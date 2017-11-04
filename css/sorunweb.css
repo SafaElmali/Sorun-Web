@@ -11,6 +11,32 @@ body {
   margin-top: 45px;
 }
 
+.btn-orng {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+/*
+.sorunButton {
+  float: left;
+  width: 200px;
+  border-radius: 25px;
+  background-color: #c35e3e;
+  border: none;
+  margin: 0 auto;
+  color: white;
+  cursor: pointer;
+} 
+*/
 
 /* triangle box white */
 
@@ -192,17 +218,6 @@ body {
   font-size: 25px;
   font-weight: 700;
   margin-top: -20px;
-}
-
-.sorunButton {
-  float: left;
-  width: 200px;
-  border-radius: 25px;
-  background-color: #c35e3e;
-  border: none;
-  margin: 0 auto;
-  color: white;
-  cursor: pointer;
 }
 
 .imgPos {
