@@ -57,7 +57,6 @@ body {
   margin: 0 auto;
   width: 0;
   height: 0;
-  z-index: 1;
   border-top: solid 50px white;
   border-left: solid 50px transparent;
   border-right: solid 50px transparent;
@@ -70,7 +69,6 @@ body {
   background-color: #F2F6F9;
   width: 100%;
   height: auto;
-  z-index: -1;
 }
 
 .triangle-gr:after {
@@ -117,6 +115,7 @@ body {
   margin: 0;
   background-color: #F2F6F9;
   height: 90px;
+  z-index: 1;
 
 }
 
