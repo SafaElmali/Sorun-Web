@@ -48,7 +48,7 @@ body {
   height: auto;
 }
 
-.triangle-wh:after {
+.triangle {
   content: '';
   position: absolute;
   top: 100%;
@@ -57,6 +57,7 @@ body {
   margin: 0 auto;
   width: 0;
   height: 0;
+  z-index: 1;
   border-top: solid 50px white;
   border-left: solid 50px transparent;
   border-right: solid 50px transparent;
