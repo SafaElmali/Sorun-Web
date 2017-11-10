@@ -12,18 +12,14 @@ body {
 }
 
 .btn-sorun {
-  background-color: #4CAF50;
-  /* Green */
-  border: none;
-  float: left;
+ 	float: left;
+ 	color: white;
+	width: 250px;
+	height: 40px;
+	border-radius: 25px;
+	background-color: #c35e3e;
+	border: none;
   margin: 0 auto;
-  color: white;
-  padding: 10px;
-  width: 200px;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 12px;
 }
 
 /*
