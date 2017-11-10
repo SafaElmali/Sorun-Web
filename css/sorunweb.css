@@ -223,6 +223,10 @@ body {
 
 /* Social Section */
 
+#Socialsec{
+  margin-top: -40px;
+}
+
 /* New Channels */
 
 .logoBlock {
