@@ -285,35 +285,16 @@ body {
 
 /*SorunAi Page */
 
-.triangle-blue {
-  position: relative;
-  background-color: #5AB2E1;
-  width: 100%;
-  height: 150px;
-}
-
-.triangle-blue:after {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 0;
-  height: 0;
-  z-index: 1;
-  border-top: solid 30px #5AB2E1;
-  border-left: solid 30px transparent;
-  border-right: solid 30px transparent;
-}
 
 #notifydetail{
   color: white;
 }
 
-/* SorunChat */
+
+
+/* Contact Section */
 .contact{
-  	background-color: #616f74;
+  background-color: #616f74;
 	margin-bottom: 0;
 	padding-bottom: 0;
 	
