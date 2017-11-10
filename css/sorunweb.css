@@ -12,13 +12,13 @@ body {
 }
 
 .btn-sorun {
- 	float: left;
- 	color: white;
-	width: 250px;
-	height: 40px;
-	border-radius: 25px;
-	background-color: #c35e3e;
-	border: none;
+  float: left;
+  color: white;
+  width: 250px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #c35e3e;
+  border: none;
   margin: 0 auto;
 }
 
@@ -87,8 +87,8 @@ body {
 .sorundetail {
   color: #717171;
   font-size: 18px;
-  font-family: 'Open Sans',sans-serif;
-  
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 
@@ -154,11 +154,11 @@ body {
   margin-top: 20px;
 }
 
-#firsttexthead{
+#firsttexthead {
   font-size: 30px;
   font-family: 'Open Sans';
   font-weight: bold;
-  
+
 }
 
 #firstparthead {
@@ -216,12 +216,9 @@ body {
   margin-top: -20px;
 }
 
-
-
-
 /* Social Section */
 
-#Socialsec{
+#Socialsec {
   margin-top: -40px;
 }
 
@@ -288,20 +285,21 @@ body {
 
 /*SorunAi Page */
 
-
-#notifydetail{
+#notifydetail {
   color: white;
 }
 
-/* Companies Section */ 
-#comp{
+/* Companies Section */
+
+#comp {
   margin-top: -30px;
 }
 
 /* Contact Section */
-.contact{
+
+.contact {
   background-color: #616f74;
-	margin-bottom: 0;
-	padding-bottom: 0;
-	
+  margin-bottom: 0;
+  padding-bottom: 0;
+
 }
