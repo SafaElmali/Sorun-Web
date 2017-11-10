@@ -290,7 +290,10 @@ body {
   color: white;
 }
 
-
+/* Companies Section */ 
+#comp{
+  margin-top: -30px;
+}
 
 /* Contact Section */
 .contact{
