@@ -1,3 +1,5 @@
+
+
 .imgResponsive {
   max-width: 100%;
 }
@@ -201,6 +203,7 @@ body {
   color: #717171;
   font-size: 27px;
   height: 10px;
+  margin-top: 80px;
 }
 
 .chatBlue {
@@ -217,9 +220,6 @@ body {
   margin-top: -20px;
 }
 
-.imgPos {
-  margin-top: -100px;
-}
 
 
 
