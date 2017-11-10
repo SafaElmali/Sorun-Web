@@ -3,7 +3,6 @@
  margin-top: -25px;
 }
 
-
 /* Button */
 
 @media screen and (max-width: 420px) {
@@ -48,35 +47,6 @@
  }
 }
 
-/* First Section */
-
-@media screen and (max-width: 667px) {
- #incele_button {
-  width: 200px;
-  margin-left: 0%;
- }
-}
-
-@media screen and (min-width: 693px) and (max-width:799) {
- #incele_button {
-  width: 200px;
-  margin: 0 auto;
- }
-}
-
-@media screen and (min-width: 800px) {
- #incele_button {
-  width: 200px;
-  margin: 0 auto;
- }
-}
-
-@media screen and (min-width: 1200px) {
- #incele_button {
-  width: 250px;
-  margin: 0 auto;
- }
-}
 
 /* Make small headers on small res. devices */
 
@@ -87,7 +57,6 @@
  .HeaderSec {
   font-size: 50px;
  }
-
 
 }
 
@@ -120,7 +89,6 @@
 /* SorunChat Page First Section */
 
 @media screen and (max-width:766px) {
-
 
  #chatdiv {
   margin-top: -70px;
