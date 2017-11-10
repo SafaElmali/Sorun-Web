@@ -85,8 +85,10 @@ body {
 /* Sorun paragraph detail */
 
 .sorundetail {
-  color: #899296;
-  font-size: 20px;
+  color: #717171;
+  font-size: 18px;
+  font-family: 'Open Sans',sans-serif;
+  
 }
 
 
@@ -152,18 +154,11 @@ body {
   margin-top: 20px;
 }
 
-#incele_button {
-  float: left;
-  width: 200px;
-  border-radius: 25px;
-  background-color: #36B4E6;
-  border: none;
-  margin: 0 auto;
-
-}
-
-#inc_btn {
-  color: white;
+#firsttexthead{
+  font-size: 30px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  
 }
 
 #firstparthead {
@@ -211,11 +206,6 @@ body {
   font-weight: 700;
 }
 
-#aimod{
-  color: #36B4E6;
-  font-size: 80px;
-  font-weight: 700;
-}
 
 .chatBlue2 {
   color: #36B4E6;
@@ -227,6 +217,8 @@ body {
 .imgPos {
   margin-top: -100px;
 }
+
+
 
 /* Social Section */
 
