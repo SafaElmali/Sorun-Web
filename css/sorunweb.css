@@ -251,6 +251,13 @@ body {
 
 
 /* Sorun Dash */
+#dashimg{
+    margin-left: -3em;
+}
+
+#dashtext{
+    margin-top: 0;
+}
 
 /* Companies */
 
