@@ -221,6 +221,7 @@ body {
 }
 
 
+
 /* Social Section */
 
 #Socialsec {
@@ -299,6 +300,12 @@ body {
 #companyHead {
     margin-top: 130px;
 }
+
+/*SorunChat Page */
+#anymPos{
+    margin-top: -10px;
+}
+
 
 
 /*SorunAi Page */
@@ -480,6 +487,15 @@ body {
     }
 
 }
+
+@media screen and (min-width: 992px) {
+ 
+ #personPos{
+     margin-top: -150px;
+     margin-left: -30px;
+ }   
+}
+
 
 @media screen and (max-width: 800px) {
     #aimod {
