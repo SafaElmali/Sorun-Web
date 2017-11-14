@@ -220,8 +220,14 @@ body {
     margin-top: -20px;
 }
 
+
 #chatdetail{
-    margin-top: 40px;
+    margin-left: 11em;
+}
+
+#chatlogos{
+    width: 80%;
+    margin-left: 6em;
 }
 
 /* Social Section */
