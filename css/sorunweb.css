@@ -289,6 +289,10 @@ body {
   color: white;
 }
 
+#aimod{
+    font-size: 80px;
+}
+
 /* Companies Section */
 
 #comp {
@@ -359,9 +363,9 @@ body {
 
 /* Make small headers on small res. devices */
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 992px) {
  .Header {
-  font-size: 70px;
+  font-size: 90px;
  }
  .HeaderSec {
   font-size: 50px;
