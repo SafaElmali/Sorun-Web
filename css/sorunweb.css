@@ -1,25 +1,29 @@
+.posDeneyim{
+    margin-top: 300px;
+}
+
 .imgResponsive {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .row {
-  margin-top: 45px;
+    margin-top: 45px;
 }
 
 .btn-sorun {
-  float: left;
-  color: white;
-  width: 250px;
-  height: 40px;
-  border-radius: 25px;
-  background-color: #c35e3e;
-  border: none;
-  margin: 0 auto;
+    float: left;
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #c35e3e;
+    border: none;
+    margin: 0 auto;
 }
 
 /*
@@ -38,56 +42,56 @@ body {
 /* triangle box white */
 
 .triangle-wh {
-  margin-top: 45px;
-  position: relative;
-  width: 100%;
-  height: auto;
+    margin-top: 45px;
+    position: relative;
+    width: 100%;
+    height: auto;
 }
 
 .triangle {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 0;
-  height: 0;
-  z-index: 1;
-  border-top: solid 50px white;
-  border-left: solid 50px transparent;
-  border-right: solid 50px transparent;
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    border-top: solid 50px white;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
 }
 
 /* triangle box gray */
 
 .triangle-gr {
-  position: relative;
-  background-color: #F2F6F9;
-  width: 100%;
-  height: auto;
+    position: relative;
+    background-color: #F2F6F9;
+    width: 100%;
+    height: auto;
 }
 
 .triangle-gr:after {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 0;
-  height: 0;
-  border-top: solid 50px #F2F6F9;
-  border-left: solid 50px transparent;
-  border-right: solid 50px transparent;
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 50px #F2F6F9;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
 }
 
 /* Sorun paragraph detail */
 
 .sorundetail {
-  color: #717171;
-  font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
+    color: #717171;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -95,74 +99,74 @@ body {
 /*Navbar*/
 
 .navbar.navbar-default .container-fluid #bs-example-navbar-collapse-1 {
-  background-color: #F2F6F9;
+    background-color: #F2F6F9;
 }
 
 .navbar.navbar-default .navbar-collapse {
-  border: none;
-  background-color: #F2F6F9;
-  box-shadow: none;
+    border: none;
+    background-color: #F2F6F9;
+    box-shadow: none;
 }
 
 .navbar.navbar-default {
-  border: none;
-  background-color: #F2F6F9;
+    border: none;
+    background-color: #F2F6F9;
 
 }
 
 .navbar-default {
-  margin: 0;
-  background-color: #F2F6F9;
-  height: 90px;
-  z-index: 1;
+    margin: 0;
+    background-color: #F2F6F9;
+    height: 90px;
+    z-index: 1;
 
 }
 
 #navlist {
-  margin-top: 15px;
-  top: 0;
-  left: 0;
-  margin-left: 20px;
-  z-index: 1;
+    margin-top: 15px;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+    z-index: 1;
 }
 
 
 #sorun_brand {
-  margin-left: 50%;
-  margin-top: 6px;
-  top: 0;
-  left: 0;
+    margin-left: 50%;
+    margin-top: 6px;
+    top: 0;
+    left: 0;
 
 }
 
 
 #sorunweb_button {
-  margin-top: 15px;
-  background-color: #31B4EA;
-  color: #f2f5f8;
-  margin-right: 100px;
+    margin-top: 15px;
+    background-color: #31B4EA;
+    color: #f2f5f8;
+    margin-right: 100px;
 }
 
 
 /* First Section */
 
 .firstsec {
-  margin-top: -20px;
+    margin-top: -20px;
 }
 
 .firsttext {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 #firsttexthead {
-  font-size: 30px;
-  font-family: 'Open Sans';
-  font-weight: bold;
+    font-size: 30px;
+    font-family: 'Open Sans';
+    font-weight: bold;
 
 }
 
 #firstparthead {
-  padding-bottom: 30px;
+    padding-bottom: 30px;
 
 }
 
@@ -172,77 +176,77 @@ body {
 /* Second Section */
 
 .blueHeader {
-  color: #36B4E6;
-  text-align: center;
-  font-size: 30px;
-  font-weight: 700;
+    color: #36B4E6;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 #blue_header_detail {
-  text-align: center;
-  font-style: normal;
-  color: #899296;
+    text-align: center;
+    font-style: normal;
+    color: #899296;
 }
 
 
 #sorunchat_img {
-  margin-top: 80px;
+    margin-top: 80px;
 }
 
 #sorunchat_img2 {
-  margin-top: 60px;
+    margin-top: 60px;
 }
 
 /* Sorun Chat */
 
 .chatHead {
-  color: #717171;
-  font-size: 27px;
-  height: 10px;
-  margin-top: 80px;
+    color: #717171;
+    font-size: 27px;
+    height: 10px;
+    margin-top: 80px;
 }
 
 .chatBlue {
-  color: #36B4E6;
-  font-size: 110px;
-  font-weight: 700;
+    color: #36B4E6;
+    font-size: 110px;
+    font-weight: 700;
 }
 
 
 .chatBlue2 {
-  color: #36B4E6;
-  font-size: 25px;
-  font-weight: 700;
-  margin-top: -20px;
+    color: #36B4E6;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: -20px;
 }
 
 /* Social Section */
 
 #Socialsec {
-  margin-top: -40px;
+    margin-top: -40px;
 }
 
 /* New Channels */
 
 .logoBlock {
-  display: inline-block;
+    display: inline-block;
 }
 
 #twitlogo {
-  margin-top: 60px;
+    margin-top: 60px;
 }
 
 #headBlue {
-  color: #36B4E6;
-  font-weight: 500;
-  font-size: 30px;
+    color: #36B4E6;
+    font-weight: 500;
+    font-size: 30px;
 }
 
 
 #textBlue {
-  color: #36B4E6;
-  font-size: 25px;
-  font-weight: 300;
+    color: #36B4E6;
+    font-size: 25px;
+    font-weight: 300;
 }
 
 
@@ -251,14 +255,14 @@ body {
 /* Companies */
 
 .customerLogoContainer {
-  text-align: center;
+    text-align: center;
 }
 
 .customerLogo {
-  filter: gray;
-  /* IE5+ */
-  -webkit-filter: grayscale(1);
-  -webkit-transition: all .8s ease-in-out;
+    filter: gray;
+    /* IE5+ */
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .8s ease-in-out;
 }
 
 /*
@@ -270,67 +274,69 @@ body {
 /*  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 
 .customerLogo:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.01);
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
 }
 
 /*filter: none;
   -webkit-filter: grayscale(0%); */
 
 #companyHead {
-  margin-top: 130px;
+    margin-top: 130px;
 }
 
 
 /*SorunAi Page */
 
 #notifydetail {
-  color: white;
+    color: white;
 }
 
-#aimod{
+#aimod {
     font-size: 80px;
 }
+
 
 /* Companies Section */
 
 #comp {
-  margin-top: -30px;
-  height: auto;
+    margin-top: -30px;
+    height: auto;
 }
 
 /* Contact Section */
 
 .contact {
-  background-color: #616f74;
-  margin-bottom: 0;
-  padding-bottom: 0;
+    background-color: #616f74;
+    margin-bottom: 0;
+    padding-bottom: 0;
 
 }
+
 @media screen and (min-width: 768px) and (max-width:992px) {
 
- .triangle-gr {
-  position: relative;
-  background-color: #F2F6F9;
-  width: 100%;
-  height: 500px;
- }
+    .triangle-gr {
+        position: relative;
+        background-color: #F2F6F9;
+        width: 100%;
+        height: 500px;
+    }
 
 
- .triangle-wh {
-  margin-top: 45px;
-  position: relative;
-  width: 100%;
-  height: 540px;
- }
+    .triangle-wh {
+        margin-top: 45px;
+        position: relative;
+        width: 100%;
+        height: 540px;
+    }
 }
 
 
 /* sorun paragraph detail */
 
 .detail {
- margin-top: -25px;
+    margin-top: -25px;
 }
 
 /* Button */
@@ -338,38 +344,38 @@ body {
 /*navbar*/
 
 @media screen and (min-width: 0px) and (max-width:768px) {
- #sorun_brand {
-  margin-left: 6%;
-  margin-top: -3px;
-  top: 0;
-  left: 0;
+    #sorun_brand {
+        margin-left: 6%;
+        margin-top: -3px;
+        top: 0;
+        left: 0;
 
- }
- #navlist {
-  margin-top: 15px;
-  top: 0;
-  left: 0;
-  margin-left: 5px;
+    }
+    #navlist {
+        margin-top: 15px;
+        top: 0;
+        left: 0;
+        margin-left: 5px;
 
- }
- #sorunweb_button {
-  margin-top: 15px;
-  background-color: #31B4EA;
-  color: #f2f5f8;
-  margin-left: 15px;
- }
+    }
+    #sorunweb_button {
+        margin-top: 15px;
+        background-color: #31B4EA;
+        color: #f2f5f8;
+        margin-left: 15px;
+    }
 }
 
 
 /* Make small headers on small res. devices */
 
 @media screen and (max-width: 992px) {
- .Header {
-  font-size: 90px;
- }
- .HeaderSec {
-  font-size: 50px;
- }
+    .Header {
+        font-size: 90px;
+    }
+    .HeaderSec {
+        font-size: 50px;
+    }
 
 }
 
@@ -378,51 +384,51 @@ body {
 @media screen and (min-width:280px) {
 
 
- #twitlogo {
-  margin-top: 10px;
- }
+    #twitlogo {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width:400px) {
 
 
- #twitlogo {
-  margin-top: 20px;
- }
+    #twitlogo {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (min-width:650px) {
 
 
- #twitlogo {
-  margin-top: 35px;
- }
+    #twitlogo {
+        margin-top: 35px;
+    }
 }
 
 /* SorunChat Page First Section */
 
 @media screen and (max-width:766px) {
 
- #chatdiv {
-  margin-top: -70px;
- }
+    #chatdiv {
+        margin-top: -70px;
+    }
 }
 
 @media screen and (max-width:1000px) {
 
- .imgPos {
-  margin-top: 0px;
- }
+    .imgPos {
+        margin-top: 0px;
+    }
 }
 
 .sorunMap {
-  margin-top: 10px;
- height: 450px;
- width: 100%;
+    margin-top: 10px;
+    height: 450px;
+    width: 100%;
 }
 
 .customerLogoContainer {
- margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 
@@ -430,24 +436,24 @@ body {
 
 @media screen and (min-width: 998px) and (max-width:1130px) {
 
- .triangle-gr {
-  position: relative;
-  background-color: #F2F6F9;
-  width: 100%;
-  height: 500px;
- }
+    .triangle-gr {
+        position: relative;
+        background-color: #F2F6F9;
+        width: 100%;
+        height: 500px;
+    }
 
 }
 
 
 @media screen and (min-width: 998px) and (max-width:1130px) {
 
- .triangle-gr {
-  position: relative;
-  background-color: #F2F6F9;
-  width: 100%;
-  height: 500px;
- }
+    .triangle-gr {
+        position: relative;
+        background-color: #F2F6F9;
+        width: 100%;
+        height: 500px;
+    }
 
 }
 
@@ -455,9 +461,19 @@ body {
 
 @media screen and (min-width: 768px) and (max-width:840px) {
 
- #sorunchat {
-  height: 550px;
- }
+    #sorunchat {
+        height: 550px;
+    }
 
 }
-.showOnLoad{display: block !important;}
+
+@media screen and (max-width: 800px) {
+    #aimod {
+        font-size: 50px;
+    }
+
+}
+
+.showOnLoad {
+    display: block !important;
+}
