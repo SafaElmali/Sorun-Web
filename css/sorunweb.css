@@ -412,6 +412,7 @@ body {
 }
 
 .sorunMap {
+  margin-top: 10px;
  height: 450px;
  width: 100%;
 }
