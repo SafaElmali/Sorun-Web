@@ -220,10 +220,20 @@ body {
     margin-top: -20px;
 }
 
+#chatdetail{
+    margin-top: 40px;
+}
+
 /* Social Section */
 
 #Socialsec {
     margin-top: -40px;
+}
+
+/* Help Sectio  */
+
+#helpdetail{
+    margin-top: 30px;
 }
 
 /* New Channels */
@@ -256,7 +266,7 @@ body {
 }
 
 #dashtext{
-    margin-top: 0;
+    margin-top: -50px;
 }
 
 /* Companies */
