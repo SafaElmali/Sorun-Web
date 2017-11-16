@@ -1,4 +1,4 @@
-.posDeneyim{
+.posDeneyim {
     margin-top: 300px;
 }
 
@@ -14,6 +14,8 @@ body {
 .row {
     margin-top: 45px;
 }
+
+/* Button */
 
 .btn-sorun {
     float: left;
@@ -95,7 +97,6 @@ body {
 
 }
 
-
 /*Navbar*/
 
 .navbar.navbar-default .container-fluid #bs-example-navbar-collapse-1 {
@@ -130,7 +131,6 @@ body {
     z-index: 1;
 }
 
-
 #sorun_brand {
     margin-left: 50%;
     margin-top: 6px;
@@ -139,14 +139,12 @@ body {
 
 }
 
-
 #sorunweb_button {
     margin-top: 15px;
     background-color: #31B4EA;
     color: #f2f5f8;
     margin-right: 100px;
 }
-
 
 /* First Section */
 
@@ -169,9 +167,6 @@ body {
     padding-bottom: 30px;
 
 }
-
-
-
 
 /* Second Section */
 
@@ -199,7 +194,7 @@ body {
 
 /* Sorun Chat */
 
-.chatHead {
+.headDetail {
     color: #717171;
     font-size: 27px;
     height: 10px;
@@ -220,8 +215,6 @@ body {
     margin-top: -20px;
 }
 
-
-
 /* Social Section */
 
 #Socialsec {
@@ -230,9 +223,7 @@ body {
 
 /* Help Section */
 
-#helpdetail{
-    margin-top: 30px;
-}
+
 
 /* New Channels */
 
@@ -257,13 +248,13 @@ body {
     font-weight: 300;
 }
 
-
 /* Sorun Dash */
-#dashimg{
+
+#dashimg {
     margin-left: -3em;
 }
 
-#dashtext{
+#dashtext {
     margin-top: -50px;
 }
 
@@ -302,11 +293,10 @@ body {
 }
 
 /*SorunChat Page */
-#anymPos{
+
+#anymPos {
     margin-top: -10px;
 }
-
-
 
 /*SorunAi Page */
 
@@ -318,13 +308,14 @@ body {
     font-size: 80px;
 }
 
-.productPos{
+.productPos {
     margin-top: 150px;
 }
 
 /*SorunDash Page */
-.supportPos{
-    margin-top:50px;
+
+.supportPos {
+    margin-top: 50px;
 }
 
 /* Companies Section */
@@ -361,14 +352,12 @@ body {
     }
 }
 
-
 /* sorun paragraph detail */
 
-.detail {
+.pdetail {
     margin-top: -25px;
 }
 
-/* Button */
 
 /*navbar*/
 
@@ -454,13 +443,12 @@ body {
     margin-top: 10px;
     height: 250px;
     margin-left: 70px;
-    width: 1000px;
+    width: 70%;
 }
 
 .customerLogoContainer {
     margin-bottom: 40px;
 }
-
 
 /* SorunChat Section */
 
@@ -474,7 +462,6 @@ body {
     }
 
 }
-
 
 @media screen and (min-width: 998px) and (max-width:1130px) {
 
@@ -498,13 +485,12 @@ body {
 }
 
 @media screen and (min-width: 992px) {
- 
- #personPos{
-     margin-top: -150px;
-     margin-left: -30px;
- }   
-}
 
+    #personPos {
+        margin-top: -150px;
+        margin-left: -30px;
+    }
+}
 
 @media screen and (max-width: 800px) {
     #aimod {
@@ -515,4 +501,11 @@ body {
 
 .showOnLoad {
     display: block !important;
+}
+
+@media screen and (max-width: 768px) {
+
+    .detailPos {
+        margin-top: -30px;
+    }
 }
