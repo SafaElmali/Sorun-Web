@@ -307,8 +307,12 @@ body {
     color: white;
 }
 
-#aimod {
-    font-size: 80px;
+@media screen and (min-width: 1200px) {
+
+    #aimod {
+        font-size: 80px;
+    }
+    
 }
 
 .productPos {
@@ -328,20 +332,20 @@ body {
     #instSize {
         font-size: 80px;
     }
-    #twtSize{
+    #twtSize {
         font-size: 70px;
     }
-    #scSize{
-        font-size:90px;
+    #scSize {
+        font-size: 90px;
     }
-    #webSize{
-        font-size:80px;
+    #webSize {
+        font-size: 80px;
     }
-    #webPos{
-        margin-top:50px;
+    #webPos {
+        margin-top: 50px;
     }
-    #helpSize{
-        font-size:95px;
+    #helpSize {
+        font-size: 95px;
     }
 }
 
@@ -349,16 +353,21 @@ body {
 
 @media screen and (min-width:992px) {
 
-    #sordash{
-        margin-top:-50px;
+    #sordash {
+        margin-top: -50px;
     }
-    #webimg{
-        margin-top:-70px;
+    #webimg {
+        margin-top: -70px;
+    }
+    .dashSize {
+        height: 400px;
     }
 }
+
 .supportPos {
     margin-top: 50px;
 }
+
 
 /* Companies Section */
 
