@@ -347,6 +347,15 @@ body {
 
 /*SorunDash Page */
 
+@media screen and (min-width:992px) {
+
+    #sordash{
+        margin-top:-50px;
+    }
+    #webimg{
+        margin-top:-70px;
+    }
+}
 .supportPos {
     margin-top: 50px;
 }
