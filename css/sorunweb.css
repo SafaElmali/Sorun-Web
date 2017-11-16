@@ -334,6 +334,15 @@ body {
     #scSize{
         font-size:90px;
     }
+    #webSize{
+        font-size:80px;
+    }
+    #webPos{
+        margin-top:50px;
+    }
+    #helpSize{
+        font-size:95px;
+    }
 }
 
 /*SorunDash Page */
