@@ -323,30 +323,28 @@ body {
 
 @media screen and (min-width:992px) {
 
+
+    .headersize{
+     font-size: 80px;
+    }
     #socialPos {
         margin-top: -40px;
     }
-    #fcSize {
-        font-size: 80px;
-    }
-    #instSize {
-        font-size: 80px;
-    }
+   
     #twtSize {
         font-size: 70px;
     }
     #scSize {
         font-size: 90px;
     }
-    #webSize {
-        font-size: 80px;
-    }
+  
     #webPos {
         margin-top: 50px;
     }
     #helpSize {
         font-size: 95px;
     }
+    
 }
 
 /*SorunDash Page */
@@ -442,9 +440,7 @@ body {
     .Header {
         font-size: 90px;
     }
-    .HeaderSec {
-        font-size: 50px;
-    }
+   
 
 }
 
