@@ -450,8 +450,11 @@ body {
 
 /* New Channels */
 
-@media screen and (min-width:280px) {
-
+@media screen and (min-width:992px) {
+    
+    #chPos{
+        margin-right:70px;
+    }
 
     #twitlogo {
         margin-top: 10px;
