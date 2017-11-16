@@ -452,8 +452,9 @@ body {
 
 .sorunMap {
     margin-top: 10px;
-    height: 450px;
-    width: 100%;
+    height: 250px;
+    margin-left: 70px;
+    width: 1000px;
 }
 
 .customerLogoContainer {
