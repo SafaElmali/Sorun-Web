@@ -462,6 +462,17 @@ body {
     }
 }
 
+@media screen and (min-width:768px) {
+    
+    #chPos{
+        margin-left: 30px;
+    }
+
+    #twitlogo {
+        margin-top: 10px;
+    }
+}
+
 @media screen and (min-width:400px) {
 
 
