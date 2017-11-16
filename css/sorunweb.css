@@ -440,8 +440,7 @@ body {
 .sorunMap {
     margin-top: 10px;
     height: 250px;
-    margin-left: 70px;
-    width: 70%;
+    width: 100%;
 }
 
 .customerLogoContainer {
@@ -459,7 +458,6 @@ body {
         height: 500px;
     }
 }
-
 
 /* SorunChat Section */
 
