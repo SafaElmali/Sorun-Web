@@ -290,10 +290,15 @@ body {
     margin-top: 130px;
 }
 
-/*SorunChat Page */
 
-#anymPos {
-    margin-top: -10px;
+@media screen and (min-width: 1200px) {
+
+    .messengerSec {
+        margin-top: -80px;
+    }
+    #bipPos {
+        margin-top: -60px;
+    }
 }
 
 /*SorunAi Page */
@@ -308,6 +313,27 @@ body {
 
 .productPos {
     margin-top: 150px;
+}
+
+/*SorunSocial Page */
+
+@media screen and (min-width:992px) {
+
+    #socialPos {
+        margin-top: -40px;
+    }
+    #fcSize {
+        font-size: 80px;
+    }
+    #instSize {
+        font-size: 80px;
+    }
+    #twtSize{
+        font-size: 70px;
+    }
+    #scSize{
+        font-size:90px;
+    }
 }
 
 /*SorunDash Page */
@@ -467,7 +493,7 @@ body {
     #personPos {
         margin-top: -130px;
     }
-    
+
     #tickPos {
         margin-top: -110px;
     }
