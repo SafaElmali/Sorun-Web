@@ -430,13 +430,6 @@ body {
     }
 }
 
-@media screen and (max-width:1000px) {
-
-    .imgPos {
-        margin-top: 0px;
-    }
-}
-
 .sorunMap {
     margin-top: 10px;
     height: 250px;
@@ -472,8 +465,11 @@ body {
 @media screen and (min-width: 992px) {
 
     #personPos {
-        margin-top: -150px;
-        margin-left: -30px;
+        margin-top: -130px;
+    }
+    
+    #tickPos {
+        margin-top: -110px;
     }
 }
 
