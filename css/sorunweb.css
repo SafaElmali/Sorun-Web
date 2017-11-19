@@ -223,19 +223,19 @@ body {
 }
 
 @media screen and (min-width:768px) {
-    
-    #scPos{
+
+    #scPos {
         height: 450px;
     }
-    
-    #sclogoPos{
+
+    #sclogoPos {
         margin-top: 40px;
     }
-    #sctextPos{
-            padding-left: 130px;
-            margin-top: -30px;
+    #sctextPos {
+        padding-left: 130px;
+        margin-top: -30px;
     }
-    
+
 }
 
 
@@ -244,10 +244,11 @@ body {
 /* New Channels */
 
 @media screen and (min-width:768px) {
-        #ncPos{
-            height: 550px;
-        }
+    #ncPos {
+        height: 550px;
+    }
 }
+
 .logoBlock {
     display: inline-block;
 }
@@ -272,10 +273,11 @@ body {
 /* Sorun Dash */
 
 @media screen and (min-width:768px) {
-        #dashPos{
-            height: 450px;
-        }
+    #dashPos {
+        height: 450px;
+    }
 }
+
 #dashimg {
     margin-left: -3em;
 }
@@ -329,6 +331,8 @@ body {
     }
 }
 
+/*Sorun Help Page */
+
 /*SorunAi Page */
 
 #notifydetail {
@@ -340,7 +344,7 @@ body {
     #aimod {
         font-size: 80px;
     }
-    
+
 }
 
 .productPos {
@@ -354,27 +358,27 @@ body {
     #socialPos {
         margin-top: -40px;
     }
-   
+
     #twtSize {
         font-size: 70px;
     }
     #scSize {
         font-size: 90px;
     }
-  
+
     #webPos {
         margin-top: 50px;
     }
     #helpSize {
         font-size: 95px;
     }
-      #twtSize {
+    #twtSize {
         font-size: 70px;
     }
-    .fontsize{
+    .fontsize {
         font-size: 80px;
     }
-    
+
 }
 
 /*SorunDash Page */
@@ -398,13 +402,15 @@ body {
 
 
 /* AI section */
+
 @media screen and (min-width:992px) {
-    
-    .aiPos{
+
+    .aiPos {
         margin-top: -60px;
     }
 
 }
+
 /* Companies Section */
 
 #comp {
@@ -478,21 +484,20 @@ body {
     .Header {
         font-size: 90px;
     }
-   
+
 
 }
 
 /* New Channels */
 
-
-#twitlogo{
+#twitlogo {
     margin-top: 10px;
 }
 
 @media screen and (min-width:992px) {
-    
-    #chPos{
-        margin-right:70px;
+
+    #chPos {
+        margin-right: 70px;
     }
 
     #twitlogo {
@@ -501,8 +506,8 @@ body {
 }
 
 @media screen and (min-width:768px) {
-    
-    #chPos{
+
+    #chPos {
         margin-left: 30px;
     }
 
@@ -529,7 +534,7 @@ body {
 
 /* SorunChat Page First Section */
 
-#chatTr{
+#chatTr {
     margin-top: -60px;
 }
 
@@ -598,5 +603,11 @@ body {
 
     .detailPos {
         margin-top: -30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fontsize {
+        font-size: 65px;
     }
 }
