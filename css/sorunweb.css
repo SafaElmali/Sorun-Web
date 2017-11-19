@@ -366,9 +366,6 @@ body {
         font-size: 90px;
     }
 
-    #webPos {
-        margin-top: 50px;
-    }
     #helpSize {
         font-size: 95px;
     }
@@ -400,6 +397,9 @@ body {
     margin-top: 50px;
 }
 
+#dashchatPos{
+    padding-top: 30px;
+}
 
 /* AI section */
 
