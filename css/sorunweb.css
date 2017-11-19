@@ -335,6 +335,10 @@ body {
 
 /*SorunAi Page */
 
+.sorunaidetail{
+    padding-right: 30px;
+}
+
 #notifydetail {
     color: white;
 }
@@ -590,7 +594,7 @@ body {
 
 @media screen and (max-width: 800px) {
     #aimod {
-        font-size: 50px;
+        font-size: 60px;
     }
 
 }
@@ -611,3 +615,5 @@ body {
         font-size: 65px;
     }
 }
+
+
