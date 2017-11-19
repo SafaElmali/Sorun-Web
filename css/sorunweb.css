@@ -351,10 +351,6 @@ body {
 
 @media screen and (min-width:992px) {
 
-
-    .headersize{
-     font-size: 80px;
-    }
     #socialPos {
         margin-top: -40px;
     }
@@ -371,6 +367,12 @@ body {
     }
     #helpSize {
         font-size: 95px;
+    }
+      #twtSize {
+        font-size: 70px;
+    }
+    .fontsize{
+        font-size: 80px;
     }
     
 }
@@ -526,6 +528,10 @@ body {
 }
 
 /* SorunChat Page First Section */
+
+#chatTr{
+    margin-top: -60px;
+}
 
 @media screen and (max-width:766px) {
 
