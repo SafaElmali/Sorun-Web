@@ -1,3 +1,7 @@
+.supportPos {
+    margin-top: 50px;
+}
+
 .posDeneyim {
     margin-top: 300px;
 }
@@ -207,7 +211,6 @@ body {
     font-weight: 700;
 }
 
-
 .chatBlue2 {
     color: #36B4E6;
     font-size: 25px;
@@ -222,32 +225,9 @@ body {
     margin-left: -90px;
 }
 
-@media screen and (min-width:768px) {
-
-    #scPos {
-        height: 450px;
-    }
-
-    #sclogoPos {
-        margin-top: 40px;
-    }
-    #sctextPos {
-        padding-left: 130px;
-        margin-top: -30px;
-    }
-
-}
-
-
 /* Help Section */
 
 /* New Channels */
-
-@media screen and (min-width:768px) {
-    #ncPos {
-        height: 550px;
-    }
-}
 
 .logoBlock {
     display: inline-block;
@@ -271,12 +251,6 @@ body {
 }
 
 /* Sorun Dash */
-
-@media screen and (min-width:768px) {
-    #dashPos {
-        height: 450px;
-    }
-}
 
 #dashimg {
     margin-left: -3em;
@@ -320,22 +294,11 @@ body {
     margin-top: 130px;
 }
 
-
-@media screen and (min-width: 1200px) {
-
-    .messengerSec {
-        margin-top: -80px;
-    }
-    #bipPos {
-        margin-top: -60px;
-    }
-}
-
 /*Sorun Help Page */
 
 /*SorunAi Page */
 
-.sorunaidetail{
+.sorunaidetail {
     padding-right: 30px;
 }
 
@@ -343,76 +306,14 @@ body {
     color: white;
 }
 
-@media screen and (min-width: 1200px) {
-
-    #aimod {
-        font-size: 80px;
-    }
-
-}
-
 .productPos {
     margin-top: 150px;
 }
 
-/*SorunSocial Page */
-
-@media screen and (min-width:992px) {
-
-    #socialPos {
-        margin-top: -40px;
-    }
-
-    #twtSize {
-        font-size: 70px;
-    }
-    #scSize {
-        font-size: 90px;
-    }
-
-    #helpSize {
-        font-size: 95px;
-    }
-    #twtSize {
-        font-size: 70px;
-    }
-    .fontsize {
-        font-size: 80px;
-    }
-
-}
-
 /*SorunDash Page */
 
-@media screen and (min-width:992px) {
-
-    #sordash {
-        margin-top: -50px;
-    }
-    #webimg {
-        margin-top: -70px;
-    }
-    .dashSize {
-        height: 400px;
-    }
-}
-
-.supportPos {
-    margin-top: 50px;
-}
-
-#dashchatPos{
+#dashchatPos {
     padding-top: 30px;
-}
-
-/* AI section */
-
-@media screen and (min-width:992px) {
-
-    .aiPos {
-        margin-top: -60px;
-    }
-
 }
 
 /* Companies Section */
@@ -431,22 +332,14 @@ body {
 
 }
 
-@media screen and (min-width: 768px) and (max-width:992px) {
+.sorunMap {
+    margin-top: 10px;
+    height: 250px;
+    width: 100%;
+}
 
-    .triangle-gr {
-        position: relative;
-        background-color: #F2F6F9;
-        width: 100%;
-        height: 500px;
-    }
-
-
-    .triangle-wh {
-        margin-top: 45px;
-        position: relative;
-        width: 100%;
-        height: 400px;
-    }
+.customerLogoContainer {
+    margin-bottom: 40px;
 }
 
 /* sorun paragraph detail */
@@ -454,7 +347,6 @@ body {
 .pdetail {
     margin-top: -25px;
 }
-
 
 /*navbar*/
 
@@ -481,15 +373,12 @@ body {
     }
 }
 
-
 /* Make small headers on small res. devices */
 
 @media screen and (max-width: 992px) {
     .Header {
         font-size: 90px;
     }
-
-
 }
 
 /* New Channels */
@@ -540,23 +429,6 @@ body {
 
 #chatTr {
     margin-top: -60px;
-}
-
-@media screen and (max-width:766px) {
-
-    #chatdiv {
-        margin-top: -70px;
-    }
-}
-
-.sorunMap {
-    margin-top: 10px;
-    height: 250px;
-    width: 100%;
-}
-
-.customerLogoContainer {
-    margin-bottom: 40px;
 }
 
 /* SorunChat Section */
@@ -616,4 +488,138 @@ body {
     }
 }
 
+/* New Channels */
 
+@media screen and (min-width:768px) {
+    #ncPos {
+        height: 550px;
+    }
+}
+
+/* Social Section */
+
+@media screen and (min-width:768px) {
+
+    #scPos {
+        height: 450px;
+    }
+
+    #sclogoPos {
+        margin-top: 40px;
+    }
+    #sctextPos {
+        padding-left: 130px;
+        margin-top: -30px;
+    }
+
+}
+
+/* SorunChat Page First Section */
+
+@media screen and (max-width:766px) {
+
+    #chatdiv {
+        margin-top: -70px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .messengerSec {
+        margin-top: -80px;
+    }
+    #bipPos {
+        margin-top: -60px;
+    }
+}
+
+/* Sorun Dash */
+
+@media screen and (min-width:768px) {
+    #dashPos {
+        height: 450px;
+    }
+}
+
+/*SorunAi Page */
+
+@media screen and (min-width: 1200px) {
+
+    #aimod {
+        font-size: 80px;
+    }
+
+}
+
+/* Contact Section */
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+
+    .triangle-gr {
+        position: relative;
+        background-color: #F2F6F9;
+        width: 100%;
+        height: 500px;
+    }
+
+
+    .triangle-wh {
+        margin-top: 45px;
+        position: relative;
+        width: 100%;
+        height: 400px;
+    }
+}
+
+/* AI section */
+
+@media screen and (min-width:992px) {
+
+    .aiPos {
+        margin-top: -60px;
+    }
+
+}
+
+
+/*SorunSocial Page */
+
+@media screen and (min-width:992px) {
+
+    #socialPos {
+        margin-top: -40px;
+    }
+
+    #twtSize {
+        font-size: 70px;
+    }
+    #scSize {
+        font-size: 90px;
+    }
+
+    #helpSize {
+        font-size: 95px;
+    }
+    #twtSize {
+        font-size: 70px;
+    }
+    .fontsize {
+        font-size: 80px;
+    }
+
+}
+
+/*SorunDash Page */
+
+@media screen and (min-width:992px) {
+
+    #sordash {
+        margin-top: -50px;
+    }
+    #webimg {
+        margin-top: -70px;
+    }
+    .dashSize {
+        height: 400px;
+    }
+}
