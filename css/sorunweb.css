@@ -620,9 +620,18 @@ body {
         margin-top: -50px;
     }
     #webimg {
-        margin-top: -70px;
+        margin-top: -40px;
     }
     .dashSize {
         height: 400px;
+    }
+    #teamdetailPos{
+        margin-top:70px;
+    }
+    #systemdetailPos{
+        margin-top:30px;
+    }
+    #systemimgPos{
+        margin-top:-30px;
     }
 }
