@@ -1,3 +1,11 @@
+#textPos{
+    margin-right:130px;
+}
+
+#itemPos{
+    margin-top: 10px;
+}
+
 .supportPos {
     margin-top: 50px;
 }
@@ -73,7 +81,7 @@ body {
 
 .triangle-gr {
     position: relative;
-    background-color: #F2F6F9;
+    background-color: #F6FBFD;
     width: 100%;
     height: auto;
 }
@@ -87,7 +95,7 @@ body {
     margin: 0 auto;
     width: 0;
     height: 0;
-    border-top: solid 50px #F2F6F9;
+    border-top: solid 50px #F6FBFD;
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
 }
@@ -103,26 +111,26 @@ body {
 
 /*Navbar*/
 
-.navbar.navbar-default .container-fluid #bs-example-navbar-collapse-1 {
-    background-color: #F2F6F9;
+.navbar.navbar-default .container-fluid  {
+    background-color: #FFFFFF;
 }
 
 .navbar.navbar-default .navbar-collapse {
     border: none;
-    background-color: #F2F6F9;
+    background-color: #FFFFFF;
     box-shadow: none;
 }
 
 .navbar.navbar-default {
     border: none;
-    background-color: #F2F6F9;
-
+    background-color: #FFFFFF;
+    height: 70px;
 }
 
 .navbar-default {
     margin: 0;
     background-color: #F2F6F9;
-    height: 90px;
+    height: 30px;
     z-index: 1;
 
 }
@@ -135,16 +143,15 @@ body {
     z-index: 1;
 }
 
-#sorun_brand {
+#sorunbrand {
     margin-left: 50%;
-    margin-top: 6px;
+    margin-top: -3px;
     top: 0;
     left: 0;
 
 }
 
 #sorunweb_button {
-    margin-top: 15px;
     background-color: #31B4EA;
     color: #f2f5f8;
     margin-right: 100px;
@@ -153,7 +160,7 @@ body {
 /* First Section */
 
 .firstsec {
-    margin-top: -20px;
+    margin-top:30px ;
 }
 
 .firsttext {
@@ -175,10 +182,10 @@ body {
 /* Second Section */
 
 .blueHeader {
-    color: #36B4E6;
+    color: #404040;
     text-align: center;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 #blue_header_detail {
@@ -355,7 +362,7 @@ body {
 /*navbar*/
 
 @media screen and (min-width: 0px) and (max-width:768px) {
-    #sorun_brand {
+    #sorunbrand {
         margin-left: 6%;
         margin-top: -3px;
         top: 0;
@@ -581,7 +588,7 @@ body {
 
     .triangle-gr {
         position: relative;
-        background-color: #F2F6F9;
+        background-color: #F7F7F7;
         width: 100%;
         height: 500px;
     }
