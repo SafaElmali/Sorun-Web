@@ -377,7 +377,7 @@ textarea {
 }
 
 @media (min-width: 1024px) {
-    #appchatdiv {
+     #appchatdiv {
         margin-left: 6%;
     }
     #bipdiv {

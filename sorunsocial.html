@@ -22,126 +22,103 @@
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!--navbar-->
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span> 
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span> 
-            <span class="icon-bar"></span> 
-          </button>
-          <span id="sorun_brand"><a class="navbar-brand" href="index.html" id="sorun_brand" href="#">
-            <img class="text-center" src="images/sorun_logo.png" alt="Sor'un_logo"/></a></span>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <!--header section -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+                <span><a class="navbar-brand" href="index.html" href="#">
+            <img class="text-center" src="images/index/sorun_logo.svg" width=93  alt="Sorun_logo"/></a></span></div>
+            <!-- menu section -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="sorunchat.html">Sorun Chat</a></li>
+                    <li><a href="sorunsocial.html">Sorun Social</a></li>
+                    <li><a href="sorunhelp.html">Sorun Help</a></li>
+                    <li><a href="sorundash.html">Sorun Dash</a></li>
+                    <li><a href="sorunai.html">Sorun AI</a></li>
+                    <form class="navbar-form navbar-right" role="search">
+                        <button type="submit" class="btn btn-default" id="sorunwebttn" onclick=" window.open('http://www.sorunapp.com','_blank')">SOR'UN WEB</button>
+                    </form>
+                </ul>
+            </div>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <form class="navbar-form navbar-right" role="search">
-            <button type="submit" class="btn btn-default" id="sorunweb_button" onclick=" window.open('http://www.sorunapp.com','_blank')">SOR'UN WEB</button>
-          </form>
-          <ul class="nav navbar-nav navbar-right" id="navlist">
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">ÜRÜNLER<b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="sorunchat.html">Sorun Chat</a></li>
-                <li><a href="sorunsocial.html">Sorun Social</a></li>
-                <li><a href="sorunhelp.html">Sorun Help</a></li>
-                <li><a href="sorundash.html">Sorun Dash</a></li>
-                <li><a href="sorunai.html">Sorun AI</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
     </nav>
-    <!--Social Section-->
-    <section class="triangle-gr firstsec">
-      <div class="container">
-        <div class="row">
-          <div id="socialPos" class="col-lg-offset-1 col-lg-5 col-md-6 col-sm-6 col-xs-12 ">
-            <h2 class="headertext headDetail">SOR'UN </h2>
-            <p id="scSize" class="chatBlue Header">Social</p>
-            <p class="text-left chatBlue2">Tüm sosyal medya Kanalları "SOR'UN"da!
-            </p>
-            <p class="sorundetail">SOR’UN ile artık Facebook, Twitter ve Instagram gibi kanallarınızdan gelen tüm soru ve talepleri kolaylıkla yönetebilirsiniz.</p>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <img class="img-responsive imgPos" src="images/social_logos.svg" width="458" height="426"  alt="socialmedia_img" />
-          </div>
+    <!--SorunSocial Page-->
+    <section class="triangle-gr">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-1 col-sm-5 col-xs-12">
+                    <h2 class="sorungrayhead">SOR'UN </h2>
+                    <p class="sorunbluehead">Social</p>
+                    <p id="socialPos" class="midsizeblue">Tüm sosyal medya Kanalları "SOR'UN"da!</p>
+                    <p class="text-left sorundetail">SOR’UN ile artık Facebook, Twitter ve Instagram gibi kanallarınızdan gelen tüm soru ve talepleri kolaylıkla yönetebilirsiniz.</p>
+                </div>
+                <div class="col-lg-offset-0 col-lg-6  col-md-offset-0 col-md-6 col-sm-offset-0 col-sm-6 col-xs-12">
+                    <img class="imgfeature" src="images/index/sorun_social.svg" alt="sorunsocial_img" />
+                </div>
+            </div>
         </div>
-      </div>
     </section>
     <!--Facebook Section-->
     <section class="triangle-wh">
-      <div class="container">
-        <div class="row">
-        <div class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-1 col-sm-5 col-xs-12 detailPos">
-            <h2 class="headDetail">SOR'UN </h2>
-            <p class="fontsize chatBlue HeaderSec">Facebook</p>
-            <p class="sorundetail">SOR’UN ile Facebook sayfanıza gelen tüm soru ve önerileri anında cevaplayabilir, gerçekleşen tüm işlemleri detaylı olarak raporlayabilirsiniz.</p>
-          </div>
-          <div class="col-lg-offset-0 col-lg-5 col-md-6 col-sm-6 col-xs-12">
-            <img class="img-responsive imgPos" src="images/social/facebook.svg" alt="facebook_img" />
-          </div>
+        <div class="container">
+            <div class="row cont-pos">
+                <div id="facediv" class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-1 col-sm-5 col-xs-12 inherit-div">
+                    <h2 class="sorungrayhead">SOR'UN </h2>
+                    <p class="sorunbluehead font-size">Facebook</p>
+                    <p class="text-left sorundetail">SOR’UN ile Facebook sayfanıza gelen tüm soru ve önerileri anında cevaplayabilir, gerçekleşen tüm işlemleri detaylı olarak raporlayabilirsiniz.</p>
+                </div>
+                <div class="col-lg-offset-0 col-lg-6  col-md-offset-0 col-md-6 col-sm-offset-0 col-sm-6 col-xs-12">
+                    <img class="imgfeature" src="images/index/sorun_facebook.svg" alt="facebook_img" />
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="triangle">
-      </div>
     </section>
     <!--Twitter Section-->
     <section class="triangle-gr">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 col-md-6 col-sm-6 hidden-xs">
-            <img class="img-responsive imgPos" src="images/social/twitter.svg" alt="twitter_img" />
-          </div>
-          <div class="col-lg-offset-2 col-lg-5 col-md-6 col-sm-6 col-xs-12 ">
-            <h2 class="headDetail">SOR'UN </h2>
-            <p id="twtSize" class="chatBlue HeaderSec">Twitter</p>
-            <p class="sorundetail">Twitter’dan gelen şikayetleri SOR’UN ile yönetebilirsiniz.Müşteri memnuniyetinizi yükseltirken, olası krizlerin önüne geçebilirsinizsiniz.</p>
-          </div>
-          <div class="hidden-lg hidden-md hidden-sm col-xs-12">
-            <img class="img-responsive imgPos" src="images/social/twitter.svg" alt="twitter_img" />
-          </div>
+        <div class="container">
+            <div class="row cont-pos">
+                <div class="col-lg-offset-0 col-lg-6  col-md-offset-0 col-md-6 col-sm-offset-0 col-sm-6 hidden-xs">
+                    <img class="imgfeature" src="images/index/sorun_twitter.svg" alt="twitter_img" />
+                </div>
+                <div class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-1 col-sm-5 col-xs-12 inherit-div">
+                    <h2 class="sorungrayhead">SOR'UN </h2>
+                    <p id="facepos" class="sorunbluehead font-size">Twitter</p>
+                    <p class="text-left sorundetail">Twitter’dan gelen şikayetleri SOR’UN ile yönetebilirsiniz.Müşteri memnuniyetinizi yükseltirken, olası krizlerin önüne geçebilirsinizsiniz.
+                    </p>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                    <img class="imgfeature" src="images/index/sorun_twitter.svg" alt="twitter_img" />
+                </div>
+            </div>
         </div>
-      </div>
     </section>
     <!--Instagram Section-->
     <section class="triangle-wh">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-offset-1 col-lg-5 col-md-6 col-sm-6 col-xs-12 ">
-            <h2 class="headDetail">SOR'UN </h2>
-            <p class="fontsize chatBlue HeaderSec">Instagram</p>
-            <p class="sorundetail">Son zamanların yükselelen sosyal medya uygulaması Instagram ile ürünleriniz ve hizmetleriniz ile ilgili gelen müşteri talepleriniz SOR’UN ile kolaylıkla yönetebilirsiniz.</p>
-          </div>
-          <div class="col-lg-offset-0 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <img class="img-responsive imgPos" src="images/social/instagram.svg" width="450" height="400" alt="Instagram_img" />
-          </div>
+        <div class="container ">
+            <div class="row cont-pos">
+                <div class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-1 col-sm-5 col-xs-12 inherit-div">
+                    <h2 class="sorungrayhead">SOR'UN </h2>
+                    <p class="sorunbluehead font-size">Instagram</p>
+                    <p class="text-left sorundetail">Son zamanların yükselelen sosyal medya uygulaması Instagram ile ürünleriniz ve hizmetleriniz ile ilgili gelen müşteri talepleriniz SOR’UN ile kolaylıkla yönetebilirsiniz.</p>
+                </div>
+                <div class="col-lg-offset-0 col-lg-6  col-md-offset-0 col-md-6 col-sm-offset-0 col-sm-6 col-xs-12">
+                    <img class="imgfeature" src="images/index/sorun_instagram.svg" alt="instagram_img" />
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="triangle">
-      </div>
     </section>
-    <!--Contact Page-->
-    <div class="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-            <p class="text-center" id="iletisim_text" style="color:white"><span class="glyphicon glyphicon-map-marker red"></span> İsmail Paşa Sokak No: 34 / 34718 Koşuyolu, İstanbul</p>
-          </div>
-        </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <br>
-          <p class="text-center" style="color:white">Copyright © SOR'UN. All rights reserved.</p>
-        </div>
-      </div>
-    </div>
-  </body>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/sorunweb.css" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=latin-ext" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=latin-ext" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/sorunweb.css" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </html>
