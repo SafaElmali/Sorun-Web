@@ -16,7 +16,7 @@
 }
 
 .container {
-    margin: 30px auto;
+    margin: 56px auto;
 }
 
 .socialogo {
@@ -89,10 +89,6 @@
     letter-spacing: normal;
     color: #626c72;
 
-}
-
-.container {
-    margin: 60px auto;
 }
 
 .row {
