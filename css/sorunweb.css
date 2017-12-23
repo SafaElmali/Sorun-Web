@@ -15,6 +15,10 @@
 
 }
 
+.divheight {
+    height: 300px;
+}
+
 .container {
     margin: 56px auto;
 }
@@ -377,13 +381,7 @@ textarea {
 }
 
 
-/* SorunAi Page */
 
-.secondbluehead {
-    font-size: 90px;
-    color: #36B4E6;
-    font-weight: 700;
-}
 
 
 /* SorunChat Page */
@@ -522,6 +520,16 @@ textarea {
 }
 
 /*  SorunAi Page */
+
+.secondbluehead {
+    font-size: 90px;
+    color: #36B4E6;
+    font-weight: 700;
+}
+
+#divmod {
+    height: 425px;
+}
 
 @media (min-width: 280px) {
     #aimod {
