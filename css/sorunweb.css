@@ -529,6 +529,7 @@ textarea {
 
 #divmod {
     height: 425px;
+    padding-right: 100px;
 }
 
 @media (min-width: 280px) {
