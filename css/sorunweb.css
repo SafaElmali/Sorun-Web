@@ -15,6 +15,10 @@
 
 }
 
+.container {
+    margin: 30px auto;
+}
+
 .socialogo {
     width: 12px;
     height: 25px;
@@ -524,7 +528,7 @@ textarea {
 /*  SorunAi Page */
 
 @media (min-width: 280px) {
-    #modfontsize {
+    #aimod {
         font-size: 50px;
     }
     #chatbotfont {
@@ -533,12 +537,13 @@ textarea {
     }
 }
 
+
 @media (min-width: 1400px) {
     #salepos {
         margin: inherit;
         margin-left: 5%;
     }
-    #modfontsize {
+    #aimod {
         font-size: 59px;
     }
 }
@@ -554,7 +559,7 @@ textarea {
     #chatbotdivpos {
         padding-right: 80px;
     }
-    #modfontsize {
+    #aimod {
         font-size: 50px;
     }
 }
