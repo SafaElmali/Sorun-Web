@@ -8,6 +8,33 @@
     margin: 0 0 -10px 0;
 }
 
+#logocontact {
+    width: 98px;
+    height: 47px;
+    opacity: 0.4;
+
+}
+
+.socialogo {
+    width: 12px;
+    height: 25px;
+    opacity: 0.5;
+}
+
+.copyrightdetail {
+    height: 16px;
+    opacity: 0.5;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
 /* Sorun button */
 
 .btn-sorun {
@@ -48,9 +75,15 @@
 }
 
 .sorundetail {
-    color: #717171;
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    height: 82px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #626c72;
 
 }
 
@@ -377,7 +410,7 @@ textarea {
 }
 
 @media (min-width: 1024px) {
-     #appchatdiv {
+    #appchatdiv {
         margin-left: 6%;
     }
     #bipdiv {
@@ -423,7 +456,7 @@ textarea {
     .font-size {
         font-size: 50px;
     }
-  
+
 
 }
 
@@ -431,7 +464,7 @@ textarea {
     .font-size {
         font-size: 50px;
     }
- 
+
 
 }
 
