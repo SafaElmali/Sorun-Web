@@ -82,6 +82,15 @@
     font-weight: 500;
 }
 
+
+.sorundetail {
+    color: #717171;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/*
 .sorundetail {
     height: 82px;
     font-family: Roboto;
@@ -94,6 +103,7 @@
     color: #626c72;
 
 }
+*/
 
 .row {
     margin: inherit;
@@ -466,7 +476,40 @@ textarea {
 
 }
 
-/* SorunDash Page */
+/* SorunDash Page  */
+
+@media (min-width: 1200px) {
+    .font-size {
+        font-size: 70px;
+    }
+    .cont-pos {
+        margin-left: 7%;
+        padding-right: 20px;
+    }
+    .inherit-div {
+        margin: inherit;
+    }
+}
+
+@media (min-width: 1400px) {
+    .cont-pos {
+        margin-left: 6%;
+    }
+    #ekip-pos {
+        margin-top: 30px;
+    }
+    #team-row {
+        margin-left: 4%;
+    }
+
+    .cont-product {
+        margin-left: 8%;
+    }
+}
+
+
+
+
 
 @media (min-width: 992px) {
     .font-size {
@@ -485,38 +528,6 @@ textarea {
         margin-left: 4%;
     }
 
-}
-
-
-@media (min-width: 1200px) {
-    .font-size {
-        font-size: 70px;
-    }
-    .cont-pos {
-        margin-left: 7%;
-        padding-right: 20px;
-    }
-    .inherit-div {
-        margin: inherit;
-    }
-}
-
-/* SorunDash Page  */
-
-@media (min-width: 1400px) {
-    .cont-pos {
-        margin-left: 6%;
-    }
-    #ekip-pos {
-        margin-top: 30px;
-    }
-    #team-row {
-        margin-left: 4%;
-    }
-
-    .cont-product {
-        margin-left: 8%;
-    }
 }
 
 /*  SorunAi Page */
