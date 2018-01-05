@@ -4,6 +4,10 @@
     margin: auto;
 }
 
+.imglogo {
+    max-width: 20px;
+}
+
 .p {
     margin: 0 0 -10px 0;
 }
@@ -165,6 +169,15 @@ textarea {
     border-right: solid 50px transparent;
 }
 
+/* Last Sections Color */
+
+.triangle-last {
+    position: relative;
+    background-color: #F6FBFD;
+    width: 100%;
+    height: auto;
+}
+
 /* Navbar */
 
 .navbar {
@@ -304,16 +317,31 @@ textarea {
     }
 }
 
-
 /*NewChannels Section */
-.twitlogopos{
-    margin-top: 40px;
+
+@media (min-width: 320px) {
+    #twitlogo {
+        margin-top: 10px;
+    }
 }
 
 @media (min-width: 425px) {
     #twitlogo {
         margin-top: 14px;
     }
+}
+
+@media (min-width: 768px) {
+    #twitlogo {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 1440px) {
+    #twitlogo {
+        margin-top: 40px;
+    }
+
 }
 
 #twitlogo {
@@ -361,7 +389,32 @@ textarea {
     background-color: #616f74;
     margin-bottom: 0;
     padding-bottom: 0;
-    height: min-content;
+
+}
+
+#contactcont {
+    margin-bottom: 0px;
+}
+
+.contact-detail {
+    height: 43px;
+    opacity: 0.5;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#mailcolor {
+    color: rgba(255, 255, 255, 1);
+}
+
+#copyrightpos {
+    padding-bottom: 50px;
 
 }
 
@@ -516,13 +569,17 @@ textarea {
 
 /* Sorun Social Page */
 
+#socialtextpos {
+    padding-left: 10px;
+}
+
 @media (min-width: 280px) {
     .font-size {
         font-size: 50px;
     }
-
-
 }
+
+/* Sorun Social Page */
 
 @media (min-width: 768px) {
     .font-size {
@@ -533,6 +590,29 @@ textarea {
 }
 
 /* SorunDash Page  */
+
+.dashrowpos {
+    margin-right: 51px;
+}
+
+@media (min-width: 992px) {
+    .font-size {
+        font-size: 70px;
+    }
+    .cont-pos {
+        margin-left: 4%;
+    }
+    .inherit-div {
+        margin: inherit;
+    }
+    #cont-pos {
+        margin-left: 3%;
+    }
+    #team-row {
+        margin-left: 4%;
+    }
+
+}
 
 @media (min-width: 1200px) {
     .font-size {
@@ -563,28 +643,13 @@ textarea {
     }
 }
 
-
-
-
-
-@media (min-width: 992px) {
-    .font-size {
-        font-size: 70px;
-    }
-    .cont-pos {
+@media (min-width: 1440px) {
+    #othersystpos {
         margin-left: 4%;
     }
-    .inherit-div {
-        margin: inherit;
-    }
-    #cont-pos {
-        margin-left: 3%;
-    }
-    #team-row {
-        margin-left: 4%;
-    }
-
 }
+
+
 
 /*  SorunAi Page */
 
@@ -609,16 +674,6 @@ textarea {
 }
 
 
-@media (min-width: 1400px) {
-    #salepos {
-        margin: inherit;
-        margin-left: 5%;
-    }
-    #aimod {
-        font-size: 59px;
-    }
-}
-
 @media (min-width: 992px) {
     #salepos {
         margin: inherit;
@@ -633,4 +688,23 @@ textarea {
     #aimod {
         font-size: 50px;
     }
+}
+
+
+@media (min-width: 1400px) {
+    #salepos {
+        margin: inherit;
+        margin-left: 5%;
+    }
+    #aimod {
+        font-size: 59px;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    #saleasstpos {
+        margin-right: 80px;
+    }
+
 }
