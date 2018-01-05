@@ -216,6 +216,9 @@ textarea {
     #firttextpos {
         text-align: center;
     }
+    #firstdivpos {
+        padding-left: 50px;
+    }
 }
 
 @media (min-width: 768px) and (max-width:992px) {
@@ -253,6 +256,13 @@ textarea {
 @media (min-width: 1200px) {
     #sorunchatdiv {
         margin-top: 5em;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .firstpageimg {
+        margin-left: 12%;
     }
 }
 
@@ -296,6 +306,15 @@ textarea {
 
 
 /*NewChannels Section */
+.twitlogopos{
+    margin-top: 40px;
+}
+
+@media (min-width: 425px) {
+    #twitlogo {
+        margin-top: 14px;
+    }
+}
 
 #twitlogo {
     width: -webkit-fill-available;
@@ -415,6 +434,27 @@ textarea {
     .chatpagefont {
         font-size: 60px;
     }
+    #webimgdiv {
+        margin-top: -20px;
+        margin-left: 16%;
+    }
+    #messengerdiv {
+        margin-top: 30px;
+    }
+    #chatimg {
+        padding-left: 8%;
+    }
+}
+
+@media (min-width: 992px) {
+
+    #webimgdiv {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    #chatmustdiv {
+        margin-left: 8%;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -424,6 +464,13 @@ textarea {
     #bipdiv {
         margin-left: 6%;
     }
+    #chatmustdiv {
+        margin-left: 7%;
+    }
+    #webimgdiv {
+        margin-top: -20px;
+        margin-left: 4%;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -432,6 +479,15 @@ textarea {
     }
     #bipdiv {
         margin-left: 7%;
+    }
+    #chatpersonimg {
+        margin-top: -30px;
+    }
+    #webimgdiv {
+        margin-left: 15%;
+    }
+    #messengerdiv {
+        margin-top: 10%;
     }
 }
 
