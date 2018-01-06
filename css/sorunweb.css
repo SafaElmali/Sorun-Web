@@ -5,7 +5,10 @@
 }
 
 .imglogo {
-    max-width: 20px;
+    display: block;
+    margin: auto;
+    max-width: 15px;
+    
 }
 
 .p {
