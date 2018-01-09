@@ -520,12 +520,12 @@ textarea {
     #bipdiv {
         margin-left: 6%;
     }
-    #chatmustdiv {
-        margin-left: 7%;
-    }
     #webimgdiv {
         margin-top: -20px;
         margin-left: 4%;
+    }
+    #chatpersonimg {
+        margin-top: -30px;
     }
 }
 
@@ -537,13 +537,16 @@ textarea {
         margin-left: 7%;
     }
     #chatpersonimg {
-        margin-top: -30px;
+        margin-top: -50px;
     }
     #webimgdiv {
         margin-left: 15%;
     }
     #messengerdiv {
         margin-top: 10%;
+    }
+    .webchatdiv{
+        margin-left: 4%;
     }
 }
 
@@ -616,7 +619,11 @@ textarea {
     }
 
 }
-
+@media (min-width: 1024px) {
+    #systimgpos{
+        margin-top:30px;
+    }
+}
 @media (min-width: 1200px) {
     .font-size {
         font-size: 70px;
