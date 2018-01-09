@@ -8,7 +8,7 @@
     display: block;
     margin: auto;
     max-width: 15px;
-    
+
 }
 
 .p {
@@ -354,10 +354,16 @@ textarea {
 
 /* Companies */
 
-#comp {
-    margin-top: -30px;
+#compsecpos {
+    margin-top: -100px;
     height: auto;
 }
+
+#comprow {
+    margin-top: -50px;
+    height: auto;
+}
+
 
 
 .customerLogoContainer {
@@ -545,7 +551,7 @@ textarea {
     #messengerdiv {
         margin-top: 10%;
     }
-    .webchatdiv{
+    .webchatdiv {
         margin-left: 4%;
     }
 }
@@ -619,11 +625,13 @@ textarea {
     }
 
 }
+
 @media (min-width: 1024px) {
-    #systimgpos{
-        margin-top:30px;
+    #systimgpos {
+        margin-top: 30px;
     }
 }
+
 @media (min-width: 1200px) {
     .font-size {
         font-size: 70px;
