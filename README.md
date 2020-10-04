@@ -5,7 +5,7 @@
  
 </div>
 
-# Demo
+## Demo
 <p>You can preview this project from here 👉 <a href="sorun-web.now.sh/" target="_blank">Preview</a>
 
 ## Toolbox Of This Project 🧰 
@@ -15,7 +15,7 @@
 - JavaScript
 - Bootstrap 3.3.7
 
-### License
+## License
 
 Sorun-Web is [MIT licensed](./LICENSE).
 
