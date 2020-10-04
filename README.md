@@ -15,3 +15,7 @@
 - JavaScript
 - Bootstrap 3.3.7
 
+### License
+
+Sorun-Web is [MIT licensed](./LICENSE).
+
