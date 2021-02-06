@@ -17,5 +17,5 @@
 
 ## License
 
-Sorun-Web is [MIT licensed](./LICENSE).
+sorun-web is [MIT licensed](./LICENSE).
 
